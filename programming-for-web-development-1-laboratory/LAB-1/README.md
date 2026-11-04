@@ -6,7 +6,7 @@ Solutions and code for the lab assignments.
 
 ### Module 1: Terminal, Git & GitHub
 - [x] [P1: Project folder and terminal navigation](./module-1/P1-terminal-navigation/)
-- [ ] [P2: Portfolio repo with an initial commit](./module-1/P2-initial-commit/)
+- [x] [P2: Portfolio repo with an initial commit](./module-1/P2-initial-commit/)
 - [ ] [P3: Feature-branch Git workflow](./module-1/P3-feature-branch-workflow/)
 - [ ] [P4: GitHub README and version tags](./module-1/P4-readme-and-tags/)
 
