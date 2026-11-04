@@ -11,7 +11,7 @@ Solutions and code for the lab assignments.
 - [x] [P4: GitHub README and version tags](./module-1/P4-readme-and-tags/)
 
 ### Module 2: HTML & CSS Foundations
-- [ ] [P5: Semantic bio page](./module-2/P5-semantic-bio-page/)
+- [x] [P5: Semantic bio page](./module-2/P5-semantic-bio-page/)
 - [ ] [P6: Full portfolio page structure in semantic HTML](./module-2/P6-portfolio-structure/)
 - [ ] [P7: Design tokens and typography system in CSS](./module-2/P7-design-tokens/)
 - [ ] [P8: Sticky navbar and card overlay using CSS positioning](./module-2/P8-sticky-navbar-overlay/)
