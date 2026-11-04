@@ -7,100 +7,49 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <h1>Design Tokens & Typography System</h1>
-    <p>A simple design system built with CSS variables for consistent colors, fonts, and spacing.</p>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Design Tokens & Typography System</h1>
+      <p>Using CSS variables for consistent colors, typography, and spacing.</p>
+    </header>
 
-  <main class="container">
-    <section class="section">
-      <h2>Color Palette</h2>
-      <div class="color-grid">
-        <div class="color-card color-primary">
-          <div class="swatch"></div>
-          <div class="color-info">
-            <strong>Primary</strong>
-            <span>--color-primary</span>
-          </div>
+    <main>
+      <section class="section">
+        <h2>Color Palette Tokens</h2>
+        <div class="color-grid">
+          <div class="color-box primary">Primary</div>
+          <div class="color-box secondary">Secondary</div>
+          <div class="color-box accent">Accent</div>
+          <div class="color-box dark">Text Dark</div>
+          <div class="color-box light">Background</div>
         </div>
-        <div class="color-card color-secondary">
-          <div class="swatch"></div>
-          <div class="color-info">
-            <strong>Secondary</strong>
-            <span>--color-secondary</span>
-          </div>
-        </div>
-        <div class="color-card color-accent">
-          <div class="swatch"></div>
-          <div class="color-info">
-            <strong>Accent</strong>
-            <span>--color-accent</span>
-          </div>
-        </div>
-        <div class="color-card color-neutral-dark">
-          <div class="swatch"></div>
-          <div class="color-info">
-            <strong>Dark Text</strong>
-            <span>--color-text</span>
-          </div>
-        </div>
-        <div class="color-card color-neutral-light">
-          <div class="swatch"></div>
-          <div class="color-info">
-            <strong>Background</strong>
-            <span>--color-bg</span>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <h2>Typography Hierarchy</h2>
-      <div class="type-scale">
-        <div class="type-row">
-          <span class="type-label">H1 (2.25rem)</span>
-          <h1>The quick brown fox</h1>
-        </div>
-        <div class="type-row">
-          <span class="type-label">H2 (1.75rem)</span>
-          <h2>The quick brown fox</h2>
-        </div>
-        <div class="type-row">
-          <span class="type-label">H3 (1.35rem)</span>
-          <h3>The quick brown fox</h3>
-        </div>
-        <div class="type-row">
-          <span class="type-label">Lead (1.15rem)</span>
-          <p class="lead">Design tokens make styling modular and easy to maintain across large projects.</p>
-        </div>
-        <div class="type-row">
-          <span class="type-label">Body (1rem)</span>
-          <p>Typography should be legible, comfortable to read, and consistently spaced throughout the application.</p>
-        </div>
-        <div class="type-row">
-          <span class="type-label">Small (0.875rem)</span>
-          <small>Captions, metadata, and helper notes use a smaller font size.</small>
-        </div>
-      </div>
-    </section>
+      <section class="section">
+        <h2>Typography Hierarchy</h2>
+        <h1>Heading 1 - Main Title</h1>
+        <p class="lead">Lead paragraph with larger text to introduce an article or section.</p>
+        <h2>Heading 2 - Section Heading</h2>
+        <p>Standard body paragraph demonstrating line-height, text color, and comfortable reading margins.</p>
+        <h3>Heading 3 - Subsection Heading</h3>
+        <p>Supporting text that follows a clean and structured typography scale.</p>
+        <small>Small text used for captions, metadata, and footnotes.</small>
+      </section>
 
-    <section class="section">
-      <h2>Tokenized Components</h2>
-      <div class="components-preview">
+      <section class="section">
+        <h2>Tokenized Components</h2>
         <div class="card">
           <h3>Sample Card</h3>
-          <p>This card demonstrates border-radius, surface color, spacing tokens, and primary buttons.</p>
-          <div class="button-group">
-            <button class="btn btn-primary">Primary Action</button>
-            <button class="btn btn-secondary">Secondary</button>
-          </div>
+          <p>This component uses design tokens for padding, background color, and borders.</p>
+          <button class="btn btn-primary">Primary Button</button>
+          <button class="btn btn-secondary">Secondary Button</button>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2026 Arnav. Programming for Web Development - I Laboratory.</p>
-  </footer>
+    <footer>
+      <p>&copy; 2026 Arnav. Programming for Web Development - I Laboratory.</p>
+    </footer>
+  </div>
 </body>
 </html>
