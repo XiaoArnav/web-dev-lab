@@ -12,7 +12,7 @@ Solutions and code for the lab assignments.
 
 ### Module 2: HTML & CSS Foundations
 - [x] [P5: Semantic bio page](./module-2/P5-semantic-bio-page/)
-- [ ] [P6: Full portfolio page structure in semantic HTML](./module-2/P6-portfolio-structure/)
+- [x] [P6: Full portfolio page structure in semantic HTML](./module-2/P6-portfolio-structure/)
 - [ ] [P7: Design tokens and typography system in CSS](./module-2/P7-design-tokens/)
 - [ ] [P8: Sticky navbar and card overlay using CSS positioning](./module-2/P8-sticky-navbar-overlay/)
 - [ ] [P9: Responsive navbar and card grid using Flexbox](./module-2/P9-responsive-navbar-grid/)
