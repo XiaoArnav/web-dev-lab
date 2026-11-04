@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Navbar & Card Overlay</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="sticky-nav">
+    <div class="nav-container">
+      <div class="logo">WebDevLab</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#cards">Card Overlays</a></li>
+        <li><a href="#info">About Positioning</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="hero" class="hero">
+    <h1>CSS Positioning Demo</h1>
+    <p>Demonstrating sticky navigation and absolute positioning overlays.</p>
+  </header>
+
+  <main class="content-container">
+    <section id="cards" class="card-section">
+      <h2>Cards with Positioning Overlays</h2>
+      <p class="section-desc">Scroll down to observe how the navbar stays sticky at the top, and notice how absolute positioning is used for badges and overlays on cards.</p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <div class="card-image-wrapper">
+            <div class="placeholder-img bg-blue">Web Design</div>
+            <span class="badge badge-top-right">New</span>
+          </div>
+          <div class="card-body">
+            <h3>Corner Badge Overlay</h3>
+            <p>Uses relative positioning on the container and absolute positioning for the badge.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-image-wrapper">
+            <div class="placeholder-img bg-purple">CSS Positioning</div>
+            <div class="card-overlay">
+              <span class="overlay-text">View Details</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Hover Overlay Card</h3>
+            <p>An absolute overlay covers the image on hover using opacity transitions.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-image-wrapper">
+            <div class="placeholder-img bg-teal">Responsive Layout</div>
+            <div class="banner-overlay">Featured Project</div>
+          </div>
+          <div class="card-body">
+            <h3>Bottom Banner Overlay</h3>
+            <p>Uses absolute positioning pegged to bottom: 0 to create a caption bar over the image.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="info" class="info-section">
+      <h2>Understanding CSS Positioning</h2>
+      <p>CSS positioning allows elements to be taken out of normal document flow or pinned during viewport scrolling:</p>
+      <ul class="info-list">
+        <li><strong>Static:</strong> Default flow order of HTML elements.</li>
+        <li><strong>Relative:</strong> Positioned relative to normal flow; establishes containing block for absolute children.</li>
+        <li><strong>Absolute:</strong> Placed precisely relative to the nearest positioned ancestor.</li>
+        <li><strong>Sticky:</strong> Toggles between relative and fixed depending on scroll position.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Arnav. Programming for Web Development - I Laboratory.</p>
+  </footer>
+</body>
+</html>
