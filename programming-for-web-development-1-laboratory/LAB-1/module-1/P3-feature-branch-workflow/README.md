@@ -24,7 +24,7 @@ git checkout -b feature-navbar-projects
 3. Staged and committed the changes:
 ```bash
 git add .
-git commit -m "feat: added problem 3 styles"
+git commit -m "added navbar and cards"
 ```
 
 4. Switched back to main and merged:

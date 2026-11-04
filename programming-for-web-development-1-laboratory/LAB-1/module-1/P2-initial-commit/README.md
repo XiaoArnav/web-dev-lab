@@ -31,7 +31,7 @@ touch index.html styles.css
 4. Staged and committed the files:
 ```bash
 git add .
-git commit -m "feat: added problem 2 styles"
+git commit -m "initial commit for portfolio"
 ```
 
 5. Checked git history:
