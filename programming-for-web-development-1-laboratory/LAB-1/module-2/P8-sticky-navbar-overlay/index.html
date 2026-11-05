@@ -7,66 +7,59 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav class="sticky-nav">
-    <div class="nav-container">
-      <div class="logo">Arnav</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#cards">Projects</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </div>
+  <nav class="navbar">
+    <div class="logo">Arnav</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#cards">Cards</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
   </nav>
 
   <header id="home" class="hero">
-    <h1>Sticky Navbar & Card Overlay Demo</h1>
-    <p>A practical demonstration of CSS sticky positioning and absolute card overlays.</p>
+    <h1>CSS Positioning</h1>
+    <p>Demonstrating sticky navigation and absolute card overlays.</p>
   </header>
 
   <main class="container">
     <section id="cards">
-      <h2>Featured Project Cards</h2>
-      <div class="cards-grid">
-        <article class="card">
-          <div class="card-image-box">
-            <div class="img-placeholder bg-blue">Web Dev Lab</div>
+      <h2>Card Overlays</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="card-img bg-1">
             <span class="badge">New</span>
           </div>
-          <div class="card-content">
-            <h3>Corner Badge Card</h3>
-            <p>Uses relative positioning on the container and absolute positioning for the badge.</p>
+          <div class="card-body">
+            <h3>Corner Badge</h3>
+            <p>Positioned with absolute top and right.</p>
           </div>
-        </article>
+        </div>
 
-        <article class="card">
-          <div class="card-image-box">
-            <div class="img-placeholder bg-purple">Portfolio Site</div>
-            <div class="card-overlay">
-              <span>View Details</span>
-            </div>
+        <div class="card">
+          <div class="card-img bg-2">
+            <div class="overlay">View Details</div>
           </div>
-          <div class="card-content">
-            <h3>Hover Overlay Card</h3>
-            <p>An absolute overlay covers the image on hover using a simple opacity change.</p>
+          <div class="card-body">
+            <h3>Hover Overlay</h3>
+            <p>Absolute overlay shown on hover.</p>
           </div>
-        </article>
+        </div>
 
-        <article class="card">
-          <div class="card-image-box">
-            <div class="img-placeholder bg-teal">Design System</div>
-            <div class="bottom-banner">Featured</div>
+        <div class="card">
+          <div class="card-img bg-3">
+            <div class="banner">Featured</div>
           </div>
-          <div class="card-content">
-            <h3>Bottom Banner Card</h3>
-            <p>Uses absolute positioning pegged to the bottom to display a caption overlay.</p>
+          <div class="card-body">
+            <h3>Bottom Banner</h3>
+            <p>Positioned along the bottom edge.</p>
           </div>
-        </article>
+        </div>
       </div>
     </section>
 
     <section id="about">
-      <h2>About This Layout</h2>
-      <p>This page demonstrates how CSS positioning works in practice. The top navigation bar stays pinned to the top of the viewport when scrolling using sticky positioning, while the cards use absolute positioning inside relatively positioned containers for badges and overlays.</p>
+      <h2>About Positioning</h2>
+      <p>The navbar stays fixed at the top using sticky positioning as you scroll. The cards use relative positioning on the container so the overlays and badges can be placed with absolute positioning.</p>
     </section>
   </main>
 

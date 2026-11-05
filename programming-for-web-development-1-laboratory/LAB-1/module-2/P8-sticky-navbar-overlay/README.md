@@ -10,7 +10,7 @@ To implement a sticky navigation bar and create multiple card overlay effects us
 - `z-index` to maintain proper stacking layer hierarchy
 
 ## Steps
-1. Created `index.html` with a top navigation bar, hero section, and project cards demonstrating badge, hover, and banner overlays.
-2. Added `styles.css` applying `position: sticky` to the navbar so it remains fixed while scrolling.
-3. Applied `position: relative` to `.card-image-box` and positioned `.badge`, `.card-overlay`, and `.bottom-banner` with `position: absolute`.
+1. Created `index.html` with a top navigation bar, hero section, and cards demonstrating badge, hover, and banner overlays.
+2. Added `styles.css` applying `position: sticky` to `.navbar` so it remains fixed while scrolling.
+3. Applied `position: relative` to `.card-img` and positioned `.badge`, `.overlay`, and `.banner` with `position: absolute`.
 4. Verified sticky scrolling behavior and hover transitions in the browser.
