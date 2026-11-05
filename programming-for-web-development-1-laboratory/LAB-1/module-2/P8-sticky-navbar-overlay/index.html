@@ -8,63 +8,49 @@
 </head>
 <body>
   <nav class="navbar">
-    <div class="logo">Arnav</div>
+    <h2>Arnav</h2>
     <ul>
-      <li><a href="#home">Home</a></li>
       <li><a href="#cards">Cards</a></li>
       <li><a href="#about">About</a></li>
     </ul>
   </nav>
 
-  <header id="home" class="hero">
-    <h1>CSS Positioning</h1>
-    <p>Demonstrating sticky navigation and absolute card overlays.</p>
+  <header class="hero">
+    <h1>CSS Positioning Demo</h1>
+    <p>Sticky navbar and absolute card overlays.</p>
   </header>
 
   <main class="container">
-    <section id="cards">
-      <h2>Card Overlays</h2>
-      <div class="grid">
-        <div class="card">
-          <div class="card-img bg-1">
-            <span class="badge">New</span>
-          </div>
-          <div class="card-body">
-            <h3>Corner Badge</h3>
-            <p>Positioned with absolute top and right.</p>
-          </div>
+    <section id="cards" class="cards">
+      <div class="card">
+        <div class="card-img blue">
+          <span class="badge">New</span>
         </div>
-
-        <div class="card">
-          <div class="card-img bg-2">
-            <div class="overlay">View Details</div>
-          </div>
-          <div class="card-body">
-            <h3>Hover Overlay</h3>
-            <p>Absolute overlay shown on hover.</p>
-          </div>
+        <div class="card-text">
+          <h3>Corner Badge</h3>
+          <p>Absolute positioned badge on corner.</p>
         </div>
+      </div>
 
-        <div class="card">
-          <div class="card-img bg-3">
-            <div class="banner">Featured</div>
-          </div>
-          <div class="card-body">
-            <h3>Bottom Banner</h3>
-            <p>Positioned along the bottom edge.</p>
-          </div>
+      <div class="card">
+        <div class="card-img purple">
+          <div class="overlay">View</div>
+        </div>
+        <div class="card-text">
+          <h3>Hover Overlay</h3>
+          <p>Absolute overlay visible on hover.</p>
         </div>
       </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="about">
       <h2>About Positioning</h2>
-      <p>The navbar stays fixed at the top using sticky positioning as you scroll. The cards use relative positioning on the container so the overlays and badges can be placed with absolute positioning.</p>
+      <p>The navbar uses sticky positioning to remain fixed at the top while scrolling. The cards use relative positioning on the image box so the badge and hover overlay can be placed using absolute positioning.</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Arnav. Programming for Web Development - I Laboratory.</p>
+    <p>&copy; 2026 Arnav - Web Dev Lab</p>
   </footer>
 </body>
 </html>
