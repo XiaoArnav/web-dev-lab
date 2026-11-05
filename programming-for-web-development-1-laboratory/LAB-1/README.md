@@ -15,7 +15,7 @@ Solutions and code for the lab assignments.
 - [x] [P6: Full portfolio page structure in semantic HTML](./module-2/P6-portfolio-structure/)
 - [x] [P7: Design tokens and typography system in CSS](./module-2/P7-design-tokens/)
 - [x] [P8: Sticky navbar and card overlay using CSS positioning](./module-2/P8-sticky-navbar-overlay/)
-- [ ] [P9: Responsive navbar and card grid using Flexbox](./module-2/P9-responsive-navbar-grid/)
+- [x] [P9: Responsive navbar and card grid using Flexbox](./module-2/P9-responsive-navbar-grid/)
 
 ### Module 3: CSS Layout Systems
 - [ ] [P10: Portfolio header and footer with advanced Flexbox](./module-3/P10-header-footer-flexbox/)
