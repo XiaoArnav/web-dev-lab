@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Daily Chronicle - 3-Column CSS Grid</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="newspaper">
+    <header class="masthead">
+      <h1>The Daily Chronicle</h1>
+      <div class="meta-bar">
+        <span>Vol. XXIV &bull; No. 1</span>
+        <span>Bangalore, India</span>
+        <span>Thursday, November 5, 2026</span>
+      </div>
+    </header>
+
+    <main class="grid-layout">
+      <aside class="col-left">
+        <h2>Local News</h2>
+        <article class="news-item">
+          <h3>Campus Hackathon Announced</h3>
+          <p>Registration opens this week for the annual student hackathon featuring web dev and open source challenges.</p>
+        </article>
+        <article class="news-item">
+          <h3>Library Extends Hours</h3>
+          <p>Study halls and computer labs will remain open late to support students preparing for upcoming lab exams.</p>
+        </article>
+      </aside>
+
+      <article class="col-center">
+        <h2>Lead Story</h2>
+        <div class="headline">
+          <h3>CSS Grid Revolutionizes Web Layouts</h3>
+          <p class="lead">Modern web developers increasingly rely on two-dimensional CSS Grid systems to build robust newspaper and editorial designs.</p>
+        </div>
+        <p>CSS Grid enables clean separation between markup structure and visual presentation. With simple column definitions and gap properties, responsive multi-column layouts no longer require complex float calculations or nested wrapper divs.</p>
+      </article>
+
+      <aside class="col-right">
+        <h2>Editorial & Tech</h2>
+        <article class="news-item">
+          <h3>Why Learn Semantic HTML?</h3>
+          <p>Writing semantic elements improves accessibility, search engine indexing, and code maintainability.</p>
+        </article>
+        <article class="news-item">
+          <h3>Terminal Basics</h3>
+          <p>Mastering CLI commands and Git version control empowers developers to collaborate smoothly.</p>
+        </article>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 The Daily Chronicle. Published for Programming for Web Development - I Laboratory.</p>
+    </footer>
+  </div>
+</body>
+</html>
