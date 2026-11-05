@@ -1,5 +1,15 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: Arial, sans-serif; line-height: 1.6; background: #f4f6f8; color: #333; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f6f8;
+  color: #333;
+}
 
 .navbar {
   position: sticky;
@@ -12,18 +22,57 @@ body { font-family: Arial, sans-serif; line-height: 1.6; background: #f4f6f8; co
   padding: 12px 20px;
   z-index: 10;
 }
-.navbar ul { display: flex; list-style: none; gap: 15px; }
-.navbar a { text-decoration: none; color: #2563eb; }
 
-.hero { text-align: center; padding: 35px 15px; background: #fff; border-bottom: 1px solid #ddd; }
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
 
-.container { max-width: 750px; margin: 20px auto; padding: 0 15px; }
-.cards { display: flex; gap: 15px; margin-bottom: 20px; }
-.card { flex: 1; background: #fff; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; }
+.navbar a {
+  text-decoration: none;
+  color: #2563eb;
+}
 
-.card-img { position: relative; height: 130px; }
-.blue { background: #3b82f6; }
-.purple { background: #8b5cf6; }
+.hero {
+  text-align: center;
+  padding: 35px 15px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.container {
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.card-img {
+  position: relative;
+  height: 130px;
+}
+
+.blue {
+  background: #3b82f6;
+}
+
+.purple {
+  background: #8b5cf6;
+}
 
 .badge {
   position: absolute;
@@ -48,8 +97,26 @@ body { font-family: Arial, sans-serif; line-height: 1.6; background: #f4f6f8; co
   opacity: 0;
   transition: opacity 0.2s;
 }
-.card:hover .overlay { opacity: 1; }
 
-.card-text { padding: 12px; }
-.about { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 15px; margin-bottom: 30px; }
-footer { text-align: center; padding: 15px; color: #777; font-size: 0.85rem; }
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card-text {
+  padding: 12px;
+}
+
+.about {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #777;
+  font-size: 0.85rem;
+}
