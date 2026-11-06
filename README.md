@@ -36,6 +36,6 @@ web-dev-lab/
 
 - [Programming for Web Development - 1 Laboratory](./programming-for-web-development-1-laboratory/)
   - [LAB-1 Index](./programming-for-web-development-1-laboratory/LAB-1/)
-    - [Module 1: Terminal, Git & GitHub](./programming-for-web-development-1-laboratory/LAB-1/module-1/P1-terminal-navigation/)
-    - [Module 2: HTML & CSS Foundations](./programming-for-web-development-1-laboratory/LAB-1/module-2/)
-    - [Module 3: CSS Layout Systems](./programming-for-web-development-1-laboratory/LAB-1/module-3/)
+    - [Module 1: Terminal, Git & GitHub (P1–P4)](./programming-for-web-development-1-laboratory/LAB-1/module-1/P1-terminal-navigation/)
+    - [Module 2: HTML & CSS Foundations (P5–P9)](./programming-for-web-development-1-laboratory/LAB-1/module-2/P5-semantic-bio-page/)
+    - [Module 3: CSS Layout Systems (P10–P13)](./programming-for-web-development-1-laboratory/LAB-1/module-3/P10-header-footer-flexbox/)
