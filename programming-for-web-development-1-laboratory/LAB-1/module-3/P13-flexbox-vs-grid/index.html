@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox vs CSS Grid - Shared Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Flexbox vs CSS Grid</h1>
+      <p>Comparing one-dimensional and two-dimensional CSS layout models using a shared card layout.</p>
+    </header>
+
+    <main>
+      <section class="comparison-block">
+        <h2>1. Flexbox Layout (One-Dimensional)</h2>
+        <p class="desc">Flexbox distributes items along a single axis. Items wrap naturally based on content size, with leftover items stretching to fill remaining space.</p>
+        <div class="flex-container">
+          <div class="card bg-blue">Card 1 (Short)</div>
+          <div class="card bg-blue">Card 2 (Medium text content)</div>
+          <div class="card bg-blue">Card 3 (Longer content inside)</div>
+          <div class="card bg-blue">Card 4 (Wraps and stretches)</div>
+        </div>
+      </section>
+
+      <section class="comparison-block">
+        <h2>2. CSS Grid Layout (Two-Dimensional)</h2>
+        <p class="desc">CSS Grid aligns items across both rows and columns simultaneously, maintaining consistent column tracks regardless of individual item content.</p>
+        <div class="grid-container">
+          <div class="card bg-purple">Card 1</div>
+          <div class="card bg-purple">Card 2</div>
+          <div class="card bg-purple">Card 3</div>
+          <div class="card bg-purple">Card 4 (Stays in column track)</div>
+        </div>
+      </section>
+
+      <section class="summary-block">
+        <h2>When to Choose Which</h2>
+        <div class="rules-grid">
+          <div class="rule-box">
+            <h3>Choose Flexbox When:</h3>
+            <ul>
+              <li>Aligning items along a single direction (row or column)</li>
+              <li>Building navbars, toolbars, and button groups</li>
+              <li>Content size should dictate the item width</li>
+            </ul>
+          </div>
+          <div class="rule-box">
+            <h3>Choose CSS Grid When:</h3>
+            <ul>
+              <li>Designing full page layouts and dashboards</li>
+              <li>Aligning items across both rows and columns</li>
+              <li>Precise control over overlapping or spanning items is needed</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Arnav. Programming for Web Development - I Laboratory.</p>
+    </footer>
+  </div>
+</body>
+</html>
