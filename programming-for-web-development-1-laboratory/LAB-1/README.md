@@ -21,7 +21,7 @@ Solutions and code for the lab assignments.
 - [x] [P10: Portfolio header and footer with advanced Flexbox](./module-3/P10-header-footer-flexbox/)
 - [x] [P11: Newspaper-style three-column layout with CSS Grid](./module-3/P11-newspaper-layout-grid/)
 - [x] [P12: Portfolio projects grid with advanced CSS Grid](./module-3/P12-projects-grid/)
-- [ ] [P13: Choosing between Flexbox and Grid for a shared layout](./module-3/P13-flexbox-vs-grid/)
+- [x] [P13: Choosing between Flexbox and Grid for a shared layout](./module-3/P13-flexbox-vs-grid/)
 
 ## Folder Structure
 
