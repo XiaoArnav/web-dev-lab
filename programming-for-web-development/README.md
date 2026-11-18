@@ -1,4 +1,4 @@
-# Programming for Web Development - 1 Laboratory
+# Programming for Web Development
 
 Course lab assignments and exercises.
 
