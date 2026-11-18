@@ -23,6 +23,9 @@ Solutions and code for the lab assignments.
 - [x] [P12: Portfolio projects grid with advanced CSS Grid](./module-3/P12-projects-grid/)
 - [x] [P13: Choosing between Flexbox and Grid for a shared layout](./module-3/P13-flexbox-vs-grid/)
 
+### Module 4: Responsive Web Design & Performance
+- [x] [P14: Responsive design and Lighthouse performance audit](./module-4/P14-responsive-lighthouse/)
+
 ## Folder Structure
 
 ```text
@@ -39,9 +42,11 @@ LAB-1/
 │   ├── P7-design-tokens/
 │   ├── P8-sticky-navbar-overlay/
 │   └── P9-responsive-navbar-grid/
-└── module-3/
-    ├── P10-header-footer-flexbox/
-    ├── P11-newspaper-layout-grid/
-    ├── P12-projects-grid/
-    └── P13-flexbox-vs-grid/
+├── module-3/
+│   ├── P10-header-footer-flexbox/
+│   ├── P11-newspaper-layout-grid/
+│   ├── P12-projects-grid/
+│   └── P13-flexbox-vs-grid/
+└── module-4/
+    └── P14-responsive-lighthouse/
 ```
