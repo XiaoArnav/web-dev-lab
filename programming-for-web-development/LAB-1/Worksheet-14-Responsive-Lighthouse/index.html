@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Worksheet 14 - Responsive design and Lighthouse audit demo.">
+  <title>Worksheet 14 - Responsive Lighthouse</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo">Lighthouse Lab</a>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#audit">Audit</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="container hero-content">
+        <h1>Responsive Web Design &amp; Lighthouse Audit</h1>
+        <p>A mobile-first responsive page built to achieve high scores in Google Lighthouse across Performance, Accessibility, Best Practices, and SEO.</p>
+        <div class="hero-buttons">
+          <a href="#features" class="btn btn-primary">Get Started</a>
+          <a href="#audit" class="btn btn-outline">View Scores</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Core Principles</h2>
+        <div class="card-grid">
+          <div class="card">
+            <h3>Mobile-First Layout</h3>
+            <p>Designed initially for smaller screens and progressively enhanced for larger desktop displays using media queries.</p>
+          </div>
+          <div class="card">
+            <h3>Flexible Grids</h3>
+            <p>Utilizing CSS Grid and Flexbox with relative units to ensure layouts adapt fluidly to any viewport size.</p>
+          </div>
+          <div class="card">
+            <h3>Accessibility First</h3>
+            <p>High contrast text, descriptive navigation links, and semantic HTML elements to ensure full accessibility compliance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="audit" id="audit">
+      <div class="container">
+        <h2 class="section-title">Target Lighthouse Metrics</h2>
+        <div class="score-grid">
+          <div class="score-card">
+            <span class="score">100</span>
+            <h4>Performance</h4>
+            <p>Minimal render-blocking resources and fast load time.</p>
+          </div>
+          <div class="score-card">
+            <span class="score">100</span>
+            <h4>Accessibility</h4>
+            <p>Proper color contrast, landmark tags, and focus states.</p>
+          </div>
+          <div class="score-card">
+            <span class="score">100</span>
+            <h4>Best Practices</h4>
+            <p>Standard HTML5 doctype, secure structure, and modern CSS.</p>
+          </div>
+          <div class="score-card">
+            <span class="score">100</span>
+            <h4>SEO</h4>
+            <p>Valid meta tags, descriptive title, and responsive layout.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-content">
+      <p>&copy; 2026 Web Development Lab - Worksheet 14</p>
+      <p>Built with semantic HTML &amp; CSS</p>
+    </div>
+  </footer>
+</body>
+</html>
