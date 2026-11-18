@@ -23,13 +23,11 @@ web-dev-lab/
         │   ├── P7-design-tokens/
         │   ├── P8-sticky-navbar-overlay/
         │   └── P9-responsive-navbar-grid/
-        ├── module-3/
-        │   ├── P10-header-footer-flexbox/
-        │   ├── P11-newspaper-layout-grid/
-        │   ├── P12-projects-grid/
-        │   └── P13-flexbox-vs-grid/
-        └── module-4/
-            └── P14-responsive-lighthouse/
+        └── module-3/
+            ├── P10-header-footer-flexbox/
+            ├── P11-newspaper-layout-grid/
+            ├── P12-projects-grid/
+            └── P13-flexbox-vs-grid/
 ```
 
 ---
@@ -41,4 +39,3 @@ web-dev-lab/
     - [Module 1: Terminal, Git & GitHub (P1–P4)](./programming-for-web-development/LAB-1/module-1/P1-terminal-navigation/)
     - [Module 2: HTML & CSS Foundations (P5–P9)](./programming-for-web-development/LAB-1/module-2/P5-semantic-bio-page/)
     - [Module 3: CSS Layout Systems (P10–P13)](./programming-for-web-development/LAB-1/module-3/P10-header-footer-flexbox/)
-    - [Module 4: Responsive Web Design & Performance (P14)](./programming-for-web-development/LAB-1/module-4/P14-responsive-lighthouse/)

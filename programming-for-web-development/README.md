@@ -8,4 +8,3 @@ Course lab assignments and exercises.
   - Module 1: Terminal, Git & GitHub (P1–P4)
   - Module 2: HTML & CSS Foundations (P5–P9)
   - Module 3: CSS Layout Systems (P10–P13)
-  - Module 4: Responsive Web Design & Performance (P14)
